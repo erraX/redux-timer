@@ -1,0 +1,28 @@
+{
+  "name": "redux-naive-timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/redux-timer.js",
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "NODE_ENV=production webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erraX/redux-timer.git"
+  },
+  "keywords": [],
+  "author": "niminjie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erraX/redux-timer/issues"
+  },
+  "homepage": "https://github.com/erraX/redux-timer#readme",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
